@@ -1,4 +1,4 @@
-<div class="col-sm-3">
+<div class="col-sm-4">
   <ul class="list-group">
     <% @activities.each do |activity| %>
       <li class="list-group-item">
@@ -12,6 +12,11 @@
           <span class="text-muted">"<%= activity.title %>"</span>
         <% else %>
           with unknown title.
+        <% end %>
+
+        <% unless activity.diff.blank? %>
+          <%#= activity.diff.class %>
+          <%= display_changed_fields activity.diff %>
         <% end %>
       </li>
     <% end %>

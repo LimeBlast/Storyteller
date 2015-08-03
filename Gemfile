@@ -13,6 +13,7 @@ gem 'bootstrap-sass', '~> 3.3.1'
 gem 'autoprefixer-rails'
 gem 'public_activity'
 gem 'omniauth-facebook'
+gem 'htmldiff', '~> 0.0.1'
 
 group :development, :test do
   gem 'byebug'

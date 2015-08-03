@@ -64,7 +64,7 @@ class StoriesController < ApplicationController
   end
 
   def load_activities
-    @activities = PublicActivity::Activity.order('created_at DESC').limit(20)
+    @activities = Activity.order('created_at DESC').limit(20)
   end
 
   def without_tracking

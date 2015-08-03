@@ -23,3 +23,29 @@
 .glyphicon-like {
   @extend .glyphicon-thumbs-up;
 }
+
+.prior_value {
+  text-decoration: line-through;
+  color: red;
+}
+
+.present_value {
+  font-style: italic;
+  color: blue;
+}
+
+.values_diff {
+  border-top: 1px solid black;
+}
+
+.diffins {
+  color: green;
+}
+
+.diffmod {
+  color: blue;
+}
+
+.diffdel {
+  color: red;
+}
