@@ -7,3 +7,15 @@
     margin-top: 0;
   }
 }
+
+.glyphicon-update {
+  @extend .glyphicon-edit;
+}
+
+.glyphicon-create {
+  @extend .glyphicon-plus;
+}
+
+.glyphicon-destroy {
+  @extend .glyphicon-remove;
+}
