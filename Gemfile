@@ -14,6 +14,7 @@ gem 'autoprefixer-rails'
 gem 'public_activity'
 gem 'omniauth-facebook'
 gem 'htmldiff', '~> 0.0.1'
+gem 'html_truncator', '~>0.2'
 
 group :development, :test do
   gem 'byebug'
